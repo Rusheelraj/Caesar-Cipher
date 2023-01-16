@@ -1,3 +1,5 @@
+Prerequisite: Python 3.X
+
 To Encrypt the plain text, run the below command:
 $ ./Encrypt_Caesar.py "Your_plain_text_goes_here" [enter_the_shift_key]
 Note: Make sure you input the plain text in lowercase format. 
