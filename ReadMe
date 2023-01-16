@@ -1,0 +1,48 @@
+To Encrypt the plain text, run the below command:
+$ ./Encrypt_Caesar.py "Your_plain_text_goes_here" [enter_the_shift_key]
+Note: Make sure you input the plain text in lowercase format. 
+
+To Decrypt the plain text, run the below command:
+$ ./DecryptCeaser.py "Your_cipher_text_goes_here" [Enter_the_shift_key]
+Example:
+└─$ ./DecryptCeaser.py "gwjfp ymnx nk dtz hfs" 5  
+
+Cipher text: gwjfp ymnx nk dtz hfs
+Shift pattern: 5
+Plain text: BREAK THIS IF YOU CAN
+
+
+To Bruteforce the cipher text with all possible shift keys, run the below command:
+$ ./BruteForce_Ceaser.py "Your_Cipher_text_goes_here"
+Example: 
+└─$ ./BruteForce_Ceaser.py "LGEGJJGO OW OADD ESJUZ GF HSFLZWJ VAFAFY" 
+
+Cipher text: lgegjjgo ow oadd esjuz gf hsflzwj vafafy
+Key[ 1 ]: kfdfiifn nv nzcc drity fe grekyvi uzezex
+Key[ 2 ]: jecehhem mu mybb cqhsx ed fqdjxuh tydydw
+Key[ 3 ]: idbdggdl lt lxaa bpgrw dc epciwtg sxcxcv
+Key[ 4 ]: hcacffck ks kwzz aofqv cb dobhvsf rwbwbu
+Key[ 5 ]: gbzbeebj jr jvyy znepu ba cnagure qvavat
+Key[ 6 ]: fayaddai iq iuxx ymdot az bmzftqd puzuzs
+Key[ 7 ]: ezxzcczh hp htww xlcns zy alyespc otytyr
+Key[ 8 ]: dywybbyg go gsvv wkbmr yx zkxdrob nsxsxq
+Key[ 9 ]: cxvxaaxf fn fruu vjalq xw yjwcqna mrwrwp
+Key[ 10 ]: bwuwzzwe em eqtt uizkp wv xivbpmz lqvqvo
+Key[ 11 ]: avtvyyvd dl dpss thyjo vu whuaoly kpupun
+Key[ 12 ]: zusuxxuc ck corr sgxin ut vgtznkx jototm
+Key[ 13 ]: ytrtwwtb bj bnqq rfwhm ts ufsymjw insnsl
+Key[ 14 ]: xsqsvvsa ai ampp qevgl sr terxliv hmrmrk
+Key[ 15 ]: wrpruurz zh zloo pdufk rq sdqwkhu glqlqj
+Key[ 16 ]: vqoqttqy yg yknn octej qp rcpvjgt fkpkpi
+Key[ 17 ]: upnpsspx xf xjmm nbsdi po qbouifs ejojoh
+Key[ 18 ]: tomorrow we will march on panther dining
+Key[ 19 ]: snlnqqnv vd vhkk lzqbg nm ozmsgdq chmhmf
+Key[ 20 ]: rmkmppmu uc ugjj kypaf ml nylrfcp bglgle
+Key[ 21 ]: qljloolt tb tfii jxoze lk mxkqebo afkfkd
+Key[ 22 ]: pkiknnks sa sehh iwnyd kj lwjpdan zejejc
+Key[ 23 ]: ojhjmmjr rz rdgg hvmxc ji kvioczm ydidib
+Key[ 24 ]: nigilliq qy qcff gulwb ih juhnbyl xchcha
+Key[ 25 ]: mhfhkkhp px pbee ftkva hg itgmaxk wbgbgz
+Key[ 26 ]: lgegjjgo ow oadd esjuz gf hsflzwj vafafy
+
+
